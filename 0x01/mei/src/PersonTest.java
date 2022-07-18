@@ -23,7 +23,7 @@ public class PersonTest {
     @Test
     public void test_calculateYearlySalary() {
         person.setSalary(1200);
-         Assertions.assertEquals("14400", person.calculateYearlySalary());
+         Assertions.assertEquals(14400, person.calculateYearlySalary());
     }
 
     @Test
