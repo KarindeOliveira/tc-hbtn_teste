@@ -6,7 +6,7 @@ public class PersonTest {
 
     Person op = new Person();
 
-    @BeforeEach
+    @BeforeAll
     void setup(){
         Person op = new Person();
 
